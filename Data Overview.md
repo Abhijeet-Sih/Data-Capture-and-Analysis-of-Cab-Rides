@@ -73,5 +73,3 @@ This contains all user's activity data such as click and page load. This data is
 - is_scroll_down: Yes/No depending on whether a user scrolled down on the current screen
 
 - timestamp: Timestamp at which the user action is captured
-
-![image](https://github.com/Abhijeet-Sih/Data-Capture-and-Analysis-of-Cab-Rides/assets/77975708/75b43d3a-f9bd-46ae-a1d6-f1f1bf86fc99)
