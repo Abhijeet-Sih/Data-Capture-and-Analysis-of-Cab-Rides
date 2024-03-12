@@ -5,7 +5,7 @@ Since booking data is updated by the backend team in MySQL, it is stored in a ce
 
 #### Field Description:
 
--- booking_id: Booking ID String
+- booking_id: Booking ID String
 
 -- customer_id: Customer ID Number
 
