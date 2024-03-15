@@ -1,0 +1,40 @@
+# Tasks
+
+## EMR Cluster Creation
+
+Create an EMR Cluster with below specifications:
+
+- Ensure Hadoop, Sqoop, Hive and Spark installed on your cluster with Hue as an optional service.
+- Also as an added step, make sure that in the Hardware configuration step for the EMR cluster generation, scroll down to the EBS Root Volume configuration and type the Root device EBS volume size as 20 GB.
+
+## Tasks
+
+- Task 1: Write a job to consume clickstream data from Kafka and ingest to Hadoop.
+
+- Task 2: Write a script to ingest the relevant bookings data from AWS RDS to Hadoop.
+
+- Task 3: Create aggregates for finding date-wise total bookings using the Spark script.
+
+- Task 4: 
+
+        - Create a Hive-managed table for clickstream data.
+
+        - Create a Hive-managed table for bookings data.
+
+        - Create a Hive-managed table for aggregated data in Task 3.
+
+- Task 5: Calculate the total number of different drivers for each customer.
+
+- Task 6: Calculate the total rides taken by each customer.
+
+- Task 7: Find the total visits made by each customer on the booking page and the total ‘Book Now’ button presses. This can show the conversion ratio.
+The booking page id is ‘e7bc5fb2-1231-11eb-adc1-0242ac120002’.
+The Book Now button id is ‘fcba68aa-1231-11eb-adc1-0242ac120002’. You also need to calculate the conversion ratio as part of this task. Conversion ratio can be calculated as Total 'Book Now' Button Press/Total Visits made by customer on the booking page.
+
+- Task 8: Calculate the count of all trips done on black cabs.
+
+- Task 9: Calculate the total amount of tips given date wise to all drivers by customers.
+
+- Task 10: Calculate the total count of all the bookings with ratings lower than 2 as given by customers in a particular month.
+
+- Task 11: Calculate the count of total iOS users.
